@@ -1,0 +1,31 @@
+var firstName; // Undefined
+firstName = "Oscar";
+console.log(firstName);
+
+var lastName = "David"; // Declarar / asignar
+lastName = "Ana"; // Reasignar
+console.log(lastName);
+
+var secondName = "David"; // Declarando / asignando
+var secondName = "Ana"; // Reasignar
+console.log(secondName);
+
+// Let
+let fruit = "Apple"; // declarar y asignar
+fruit = "Kiwi"; // reasignar
+console.log(fruit);
+
+let fruit = "Banana"; // No se puede redeclarar con let
+
+// const
+const animal = "dog"; // declara y asigna
+// animal = "cat"; // reaasignando
+const animal = "snake";
+console.log(animal);
+
+const vehicles = [];
+vehicles.push(":car:");
+console.log(vehicles);
+
+vehicles.pop();
+console.log(vehicles);
